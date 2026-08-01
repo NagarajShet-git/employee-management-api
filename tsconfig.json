@@ -29,8 +29,7 @@
     "noImplicitReturns": true
   },
 
-  "include": [
-    "src", "src/app.ts"  ],
+  "include": ["src/**/*"],
 
   "exclude": [
     "node_modules",
