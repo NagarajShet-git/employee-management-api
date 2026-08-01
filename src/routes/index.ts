@@ -5,7 +5,7 @@ import { verifyToken } from '../middleware/auth.middleware';
 
 const router = Router()
 
-router.use('/employees', verifyToken, employeeRoutes);
-router.use('/auth', authRoutes)
+router.use('/api/employees', verifyToken, employeeRoutes);
+router.use('/api/auth', authRoutes)
 
 export default router
